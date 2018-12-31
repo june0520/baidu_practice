@@ -1,0 +1,34 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+
+
+
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.info {
+    width: 600px;
+}
+.info li {
+    margin: 15px 0;
+
+}
+.base_info span,
+.contact span {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight:700;
+}
+p  {
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight:700;
+}

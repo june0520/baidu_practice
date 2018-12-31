@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>百度前端5-6天</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style_3.css" id="css">
+    <script>
+        window.onload=function(){
+            var dis_css = document.getElementById("css");
+         
+            document.addEventListener('click', (e)=>{
+                if(e.target.id == 'demo1') {
+                    dis_css.href = "css/style_1.css"
+                }
+                if (e.target.id == 'demo2'){
+                    dis_css.href = "css/style_2.css"
+                } 
+                if (e.target.id == 'demo3'){
+                    dis_css.href = "css/style_3.css"
+                } 
+            })
+        }
+    
+    </script>
+
+</head>
+<body>
+    <input type="button" value="模式一" id="demo1">
+    <input type="button" value="模式二" id="demo2">
+    <input type="button" value="模式三" id="demo3">
+    <div class="resume">
+        <h1>简历</h1>
+        <ul class="info">
+            <li class='base_info'>
+                <h2 class="fl">基本信息</h2>
+                <div class="fl pd">
+                    <span>姓名</span>张三&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<span>性别</span>男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<span>应聘职位</span>web前端工程师
+                </div>
+            </li>
+            <li class="contact">
+                <h2 class="fl">联系方式</h2>
+                <div class="fl pd">
+                    <span>手机</span>123123123123&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<span>Email</span><a href="#">123456789@qq.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<span>个人主页</span><a href="#">github</a> 
+                </div>
+            </li>
+            <li class="skill">
+                <h2 class="fl">能力测试</h2>
+                <div class="fl pd">
+                    <div>     
+                        <p>技术能力</p>
+                        熟练掌握HTML，CSS，Javascript
+                        </div>
+                    <div> 
+                        <p>综合能力</p>
+                        良好的沟通，积极主动，勤奋努力
+                    </div>
+                        
+                </div>
+            
+            </li>
+            <li class="education">
+                <h2 class="fl">教育经历</h2>
+                <div class="fl pd">
+                    <div>  
+                        <p>本科</p>
+                        百度前端学院小薇学院
+                    </div>
+                    <div>  
+                        <p>研究生</p>
+                        百度前端学院大斌学院
+                    </div>
+                </div>
+            </li>
+            <li class="experience">
+                <h2 class="fl">项目经历</h2>
+                <div class="fl pd">
+                    <div> 
+                        <p>小度小度</p>
+                        作为前端开发工程师角色参与了ABC组件的开发
+                    </div>
+                    <div>
+                        <p>SAN Doc</p>
+                        作为文档工程师参与了SANDoc编写
+                    </div>
+                </div>
+            
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+    
+
+ 
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

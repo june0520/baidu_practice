@@ -1,0 +1,39 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+
+h1 {
+    float: left;
+    font-size: 32px;
+    background-color: cyan;
+    width: 150px;
+    height: 600px;
+    text-align: center;
+    padding-top:30px;
+
+}
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.info {
+    width: 600px;
+    float: left;
+    padding-left: 15px;
+}
+.info li {
+    margin: 15px 0;
+
+}
+.base_info span,
+.contact span {
+    margin-right: 10px;
+    font-weight:700;
+}
+p  {
+    padding: 5px 0;
+    font-weight:700;
+}

@@ -1,0 +1,16 @@
+body,ul,p,h1,h2,h3,h4,h5,h6,dl,dd,input,select,form {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+em {
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+}
